@@ -1,0 +1,20 @@
+{
+  "name": "betton-bot",
+  "scripts": {
+    "start": "dotenv node app.js",
+    "dev": "dotenv nodemon app.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@grammyjs/i18n": "^0.5.1",
+    "express": "^4.18.1",
+    "grammy": "^1.8.2"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^5.1.0",
+    "nodemon": "^2.0.16"
+  },
+  "type": "module"
+}
